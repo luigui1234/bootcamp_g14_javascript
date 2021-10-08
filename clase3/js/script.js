@@ -35,6 +35,8 @@ Ejercicio 3:
 completeName = prompt("Ingresa tu nombre Completo");
 let number = 0;
 
+console.log(completeName.match(/a/g).length);
+console.log(completeName.match(/a/g));
 if(completeName.match(/a/g)!=null)
     number += completeName.match(/a/g).length - parseInt(completeName.match(/a/g).length/2);
 if(completeName.match(/e/g)!=null)
